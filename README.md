@@ -48,25 +48,23 @@ All code, SQL, and outputs are included in the `notebooks/` and `sql/` folders.
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
+```text
 ecommerce_analytics_project/
-│
 ├── data/
-│ ├── raw/ # Simulated CSV files
-│ └── processed/ # SQLite DB and processed outputs
-│
+│   ├── raw/         # Simulated CSV files
+│   └── processed/   # SQLite DB and processed outputs
 ├── notebooks/
-│ ├── 00_generate_data.ipynb
-│ ├── 01_build_database.ipynb
-│ └── 02_analysis.ipynb
-│
-├── sql/ # Any standalone SQL scripts
-├── dashboard/ # (Optional) Visual dashboards
-└── report/ # Business summary / write-up
+│   ├── 00_generate_data.ipynb
+│   ├── 01_build_database.ipynb
+│   └── 02_analysis.ipynb
+├── sql/             # Standalone SQL scripts (optional)
+├── dashboard/       # Dashboards (optional / future work)
+├── report/          # Business summary / write-up (optional)
+└── images/          # Plots used in the README
 
-yaml
-Copy code
+
 
 ---
 
